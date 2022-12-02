@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Jeu de plateau</title>
+    </head>
+
+    <body> 
+      <h1>Ajouter un jeu</h1>
+
+      <form>
+      
+        <div class="form-group">
+          <label for="editeur">Editeur</label>
+          <input type="text" class="form-control" id="editeur" placeholder="id_artiste">
+
+          <label for="date_parution">Date de parution</label>
+          <input type="text" class="form-control" id="date_parution" placeholder="date de parution">
+
+          <label for="type">Type</label>
+          <input type="text" class="form-control" id="type" placeholder="type">
+
+          <label for="duree">Durée</label>
+          <input type="text" class="form-control" id="duree" placeholder="durée">     
+
+          <label for="nbr_joueurs_min">Nombre minimum de joueurs</label>
+          <input type="text" class="form-control" id="nbr_joueurs_min" placeholder="nombre minimum de joueurs">   
+
+          <label for="nbr_joueurs_max">Nombre maximum de joueurs</label>
+          <input type="text" class="form-control" id="nbr_joueurs_max" placeholder="nombre maximum de joueurs">       
+        
+          <label for="themes">Thèmes utilisés</label>
+          <select multiple class="form-control" id="themes">
+            <option>Pirate</option>
+            <option>Science-Fiction</option>
+            <option>Fantasy</option>
+            <option>Educatif</option>
+            <option>Espionnage</option>
+            <option>Medieval</option>
+            <option>Abstrait</option>
+            <option>Historique</option>
+            <option>Animaux</option>
+            <option>Espace</option>
+            <option>Surnaturel</option>
+            <option>Jeu_a_license</option>    
+          </select>
+
+          <label for="extensions">Extensions</label>
+          <input type="text" class="form-control" id="extensions" placeholder="extensions (exemple : id_extension_1 ; id_extension_2 ; ... ; id_extensions_n)">  
+
+          <label for="createur">Créteur du jeu</label>
+          <input type="text" class="form-control" id="createur" placeholder="id_créateur">  
+
+          <label for="illustrateurs">Illustrateurs</label>
+          <input type="text" class="form-control" id="illustrateurs" placeholder="illustrateurs (exemple : id_illustrateur_1 ; id_illustrateur_2 ; ... ; id_illustrateur_n)">  
+        </div>
+
+      </form>
+
+      <a href="#"><button type="button" class="btn btn-success">Enregistrer</button></a>
+        
+    </body>
+</html>

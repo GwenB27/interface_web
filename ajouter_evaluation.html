@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Jeu de plateau</title>
+    </head>
+
+    <body> 
+        <h1>Ajouter une évaluation</h1>        
+
+        <form>      
+            <div class="form-group">
+                <label for="note">Note</label>
+                <input type="text" class="form-control" id="note" placeholder="note">
+
+                <label for="commentaire">Commentaire</label>
+                <input type="text" class="form-control" id="commentaire" placeholder="commentaire">
+            
+                <label for="nbr_joueurs">Nombre de joueurs dans la partie</label>
+                <input type="text" class="form-control" id="nbr_joueurs" placeholder="nombre de joueurs dans la partie">
+
+                <label for="date_evaluation">Date</label>
+                <input type="text" class="form-control" id="date_evaluation" placeholder="date(jj/mm/aaaa)">  
+            
+                <label for="joueur">Joueur publiant le commentaire</label>
+                <input type="text" class="form-control" id="joueur" placeholder="id_joueur">  
+
+                <label for="jeu">Jeu</label>
+                <input type="text" class="form-control" id="jeu" placeholder="id_jeu">  
+            
+                <label for="extensions">Extensions</label>
+                <input type="text" class="form-control" id="extensions" placeholder="extensions (exemple : extension_1 ; extension_2 ; ... ; extensions_n)">          
+            </div>
+        </form>
+
+        <a href="#"><button type="button" class="btn btn-success">Enregistrer</button></a>
+        
+    </body>
+</html>
